@@ -79,10 +79,10 @@
     <!-- Custom styles for this template -->
     <link href="cover1.css" rel="stylesheet">
   </head>
-  <body class="text-center text-bg-dark">  
-    <div class="cover-container w-100 h-100 p-3 flex-column mx-auto layer">
-      <header class="mb-auto">
-        <nav class="navbar navbar-expand-lg">
+  <body class="text-center text-bg-white">  
+    
+      <header class="mb-auto flex-column mx-auto layer">
+        <nav class="p-3 navbar navbar-expand-lg">
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -108,14 +108,6 @@
       </header>
   <section class="mx-auto" id="" style="padding-top:3%">
     <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="margin-top-0 text-white">ArtLife</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container">
         <div class="row g-3">
             <div class="col-lg-2 col-md-4 text-center">
                 <div class="feature">
@@ -132,6 +124,7 @@
     </div>
     </p>
   </section>
+  <section class="text-bg-dark">
   <section class="mx-auto" id="kontakt" style="padding-top:3%">
     <div class="container py-5">
         <div class="row">
@@ -147,7 +140,7 @@
 
 
 
-    <section class="ftco-section">
+    <section class="ftco-section bg-dar">
 		<div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -186,8 +179,8 @@
       </div>
 
 	</section>
-  <div class="m-auto container row g-5">
-    <form class="row g-3 w-50" action="https://formsubmit.co" method="POST">
+  <div class="m-auto container row g-5 pb-5">
+    <form class="row g-3 w-100" action="https://formsubmit.co" method="POST">
       <!-- Honeypot -->
       <input type="text" name="_honey" style="display: none;">
 
@@ -196,32 +189,38 @@
 
       <input type="hidden" name="_next" value="success.html" >
 
-      <div class="col-md-5 textleft">
-        <label for="firstName textleft" class="form-label">Fornavn</label>
+      <div class="col-md-4 textleft">
+        <label for="firstName" class="form-label">Navn</label>
         <input type="text" class="form-control" name="name" id="firstName" required>
-      </div>
-      <div class="col-md-5 textleft">
-        <label for="lastName" class="form-label">Efternavn</label>
-        <input type="text" class="form-control" name="LastName" id="lastName" required>
-      </div>
-      <div class="col-md-5 textleft">
+  
+      
         <label for="emailInfo" class="form-label">E-mail</label>
         <input type="email" class="form-control" name="email" id="emailInfo" required>
-      </div>
-      <div class="col-md-5 textleft">
+      
+      
         <label for="phoneNumber" class="form-label">Telefon nummer</label>
         <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+45 12 34 56 78">
-      </div>
-      <div class="col-md-10 textleft">
-        <label for="comments" class="form-label">Spørgsmål eller ønsker?</label>
-        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-      </div>
-      <div class="col-md-10">
-        <button type="submit" class="btn btn-primary">Indsend</button>
-      </div>
-    </form>
-    <iframe class="col" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d562.5799181105292!2d12.577566229240414!3d55.66604105518712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652536a461f320b%3A0xf8651e4fc9ca7e8e!2sEgilsgade%2016%2C%202300%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1659839482052!5m2!1sda!2sdk" width="50" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    
+
+
+    <label for="comments" class="form-label">Spørgsmål eller ønsker?</label>
+    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+    <button type="submit" class="btn btn-primary col-md-12 mt-4">Indsend</button>
   </div>
+  <div class="col-md-8">
+    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d562.5799181105292!2d12.577566229240414!3d55.66604105518712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652536a461f320b%3A0xf8651e4fc9ca7e8e!2sEgilsgade%2016%2C%202300%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1659839482052!5m2!1sda!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+        
+    
+      
+    </form>
+
+    
+    </div>
+
+</section>
   </body>
 </html>
 
