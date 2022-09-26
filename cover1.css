@@ -94,3 +94,10 @@
 .raleway {
   font-family: 'Raleway', sans-serif;
 }
+
+.fullsize {
+  min-height: 100vh;
+}
+.verticalmiddle {
+  margin-top: 35vh;
+}
