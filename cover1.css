@@ -101,3 +101,8 @@
 .verticalmiddle {
   margin-top: 35vh;
 }
+.greenpallet {
+  background-color: #6D9886;
+  color: #F6F6F6;
+  border-color: #212121;
+}
